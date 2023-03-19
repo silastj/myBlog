@@ -4,9 +4,10 @@ import Seo from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-      <h1>
-        Amós <b>Gatsby!</b>
-      </h1>
+    <Seo title="Home" />
+    <h1>
+      Amós <b>Gatsby!</b>
+    </h1>
   </Layout>
 )
 
@@ -15,6 +16,5 @@ const IndexPage = () => (
  *
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
-export const Head = () => <Seo title="Home" />
 
 export default IndexPage

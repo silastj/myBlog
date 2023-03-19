@@ -1,3 +1,16 @@
+## Pacotes
+`npm init -y `
+`npm install -g gatsby-cli`
+`gatsby new my-blog`
+
+## Iniciar o Projeto
+`cd my-blog `
+`gatsby develop `
+
+## HELP GATSBY
+`gatsby --help `
+
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">

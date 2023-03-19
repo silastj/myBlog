@@ -6,11 +6,21 @@
  */
 
 import * as React from "react"
+import Header from "./Header"
+import Profile from "./Profile"
 
 const Layout = ({ children }) => {
 
   return (
-    <main>{children}</main>
+    <>
+      <nav>
+        <Header/>
+      </nav>
+      <aside>
+        <Profile/>
+      </aside>
+      <main>{children}</main>
+    </>
   )
 }
 
